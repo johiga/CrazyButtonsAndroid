@@ -18,16 +18,23 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:text="TextView"
+            android:text="@string/nombreUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/nombreUsuario"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@android:color/holo_red_dark" />
 
         <TextView
-            android:text="TextView"
+            android:text="@string/faseJuego"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView" />
+            android:id="@+id/faseJuego"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
 
         <GridLayout
             android:layout_width="188dp"
@@ -41,41 +48,44 @@
             android:layout_gravity="center">
 
             <Button
-                android:text="Button"
+                android:text="@string/boton1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button5" />
+                android:id="@+id/boton1" />
 
             <Button
-                android:text="Button"
+                android:text="@string/boton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button6" />
+                android:id="@+id/boton2" />
 
             <Button
-                android:text="Button"
+                android:text="@string/boton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button7" />
+                android:id="@+id/boton3" />
 
             <Button
-                android:text="Button"
+                android:text="@string/boton4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button8" />
+                android:id="@+id/boton4" />
         </GridLayout>
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/progressBar" />
+            android:id="@+id/barraProgreso" />
 
         <TextView
-            android:text="TextView"
+            android:text="@string/porcentajeBarra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/porcentajeBarra"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@android:color/background_dark" />
     </LinearLayout>
 
 </RelativeLayout>

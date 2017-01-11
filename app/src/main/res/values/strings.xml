@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">PracticaEvaluable4_CrazyButtons</string>
+    <string name="nombreUsuario">Usuario</string>
+    <string name="faseJuego">Fase inicial.</string>
+    <string name="boton1">1</string>
+    <string name="boton2">2</string>
+    <string name="boton3">3</string>
+    <string name="boton4">4</string>
+    <string name="porcentajeBarra">0/100</string>
 
 </resources>
